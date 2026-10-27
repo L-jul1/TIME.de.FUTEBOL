@@ -1,0 +1,29 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{ String Time;
+	  String time;
+	  int Mundiais;
+	  int mundiais;
+	 
+	Console.WriteLine("INSIRA O NOME DE UM TIME DE FUTEBOL BRASILEIRO");
+	Time = Console.ReadLine();
+	Console.WriteLine("INSIRA OUTRO NOME DE UM TIME DE FUTEBOL BRASILEIRO"); 
+	time = Console.ReadLine(); 
+    Console.WriteLine( Time + " " + "tem quantos mundiais ?");
+	Mundiais = Convert.ToInt16(Console.ReadLine());
+	Console.WriteLine( time + " " + "tem quantos mundiais ?");
+	mundiais = Convert.ToInt16(Console.ReadLine());
+	 if (Mundiais>mundiais){
+		 Console.WriteLine( "O"+" "+Time+" "+"tem mais titulos que o "+ time);
+	 }
+	 else if (mundiais>Mundiais){  
+		 Console.WriteLine( "O"+" "+Time+" "+"tem mais titulos que o "+ time);
+	 }
+	 else {
+		 Console.WriteLine( "O"+" "+Time+" "+"tem a mesma quantidade de titulos o "+ time);
+	   }
+	}
+}
